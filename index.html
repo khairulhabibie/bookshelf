@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rak Buku</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Rak Buku</h1>
+    </header>
+    <main>
+      <section class="input-book">
+        <h2>Masukkan Buku Baru</h2>
+        <form id="inputBook">
+          <div class="input">
+            <label for="titleBook">Judul</label>
+            <input id="titleBook" type="text" required />
+          </div>
+          <div class="input">
+            <label for="authorBook">Penulis</label>
+            <input id="authorBook" type="text" required />
+          </div>
+          <div class="input">
+            <label for="yearBook">Tahun</label>
+            <input id="yearBook" type="number" required />
+          </div>
+          <div class="input_inline">
+            <input id="isCompleted" type="checkbox" />
+            <label for="isCompleted">Selesai dibaca</label>
+          </div>
+          <button id="bookSubmit" type="submit">Masukkan Buku ke Rak</button>
+        </form>
+      </section>
+
+      <section class="book_shelf">
+        <h2>Belum selesai dibaca</h2>
+
+        <div id="unRead" class="book_list">
+          <!-- <article class="book_item">
+          <table>
+            <tr><td>Judul</td><td>: Habibie Ainun</td></tr>
+            <tr><td>Penulis</td><td>: BJ Habibie</td></tr>
+            <tr><td>Tahun</td><td>: 2014</td></tr></table>
+
+          <div class="action">
+                   <button class="green">Selesai dibaca</button>
+                   <button class="red">Hapus buku</button>
+                 </div>
+               </article> -->
+        </div>
+      </section>
+
+      <section class="book_shelf">
+        <h2>Selesai dibaca</h2>
+
+        <div id="readyRead" class="book_list">
+          <!-- <article class="book_item">
+          <table>
+            <tr><td>Judul</td><td>: Habibie Ainun</td></tr>
+            <tr><td>Penulis</td><td>: BJ Habibie</td></tr>
+            <tr><td>Tahun</td><td>: 2014</td></tr></table>
+
+          <div class="action">
+                   <button class="green">Belum Selesai dibaca</button>
+                   <button class="red">Hapus buku</button>
+                 </div>
+               </article> -->
+        </div>
+      </section>
+    </main>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
