@@ -1,5 +1,4 @@
-### Bookshelf
-
+# Bookshelf
 ---
 This is a simple web that can be used to record books that will be read and have been read.
 This website can function offline because the book data is stored in the local storage browser. Features of the bookshelf:
@@ -10,4 +9,5 @@ This website can function offline because the book data is stored in the local s
 
 ---
 Bookshelf Display:
-<img src="https://github.com/khairulhabibie/bookshelf/blob/main/assets/doc/Bookshelf.svg"/>
+-
+<img src="https://github.com/khairulhabibie/bookshelf/blob/main/assets/doc/bookshelf.png" />
