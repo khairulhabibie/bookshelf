@@ -1,13 +1,13 @@
-### Rak-Buku
+### Bookshelf
 
 ---
-Ini ada web sederhana yang bisa digunakan untuk mencatat buku yang akan dibaca dan telah dibaca.
-Web ini bisa berfungsi dalam keadaan offline karena data buku tersimpan pada local storage browser. Fitur yang terdapat pada rak buku :
+This is a simple web that can be used to record books that will be read and have been read.
+This website can function offline because the book data is stored in the local storage browser. Features of the bookshelf:
 
-1. Menggunakan Local Storage, sehingga bisa digunakan meskipun offline.
-2. Bisa memindahkan buku dari rak yang belum dibaca ke rak sudah dibaca, maupun sebaliknya
-3. Dapat menghapus buku dari rak yang belum dibaca maupun sudah dibaca.
+1. Using Local Storage, so it can be used even if it is offline.
+2. Can move books from unread shelves to read shelves, and vice versa
+3. Can remove books from the shelf that have not been read or have been read.
 
 ---
-Tampilan Rak Buku : 
-<img src="https://github.com/khairulhabibie/rak-buku/blob/main/assets/doc/rak-buku.png"/>
+Bookshelf Display:
+<img src="https://github.com/khairulhabibie/bookshelf/blob/main/assets/doc/Bookshelf.svg"/>
