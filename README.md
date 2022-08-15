@@ -10,3 +10,4 @@ Web ini bisa berfungsi dalam keadaan offline karena data buku tersimpan pada loc
 
 ---
 Tampilan Rak Buku : 
+<img src="https://github.com/khairulhabibie/rak-buku/blob/main/assets/doc/rak-buku.png"/>
