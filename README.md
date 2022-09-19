@@ -10,4 +10,6 @@ This website can function offline because the book data is stored in the local s
 ---
 Bookshelf Display:
 -
-<img src="https://github.com/khairulhabibie/bookshelf/blob/main/assets/doc/bookshelf.png" />
+<img src="https://github.com/khairulhabibie/Bookshelf-App/blob/main/src/img/img-rakbuku%20(1).webp />
+<img src="https://github.com/khairulhabibie/Bookshelf-App/blob/main/src/img/img-rakbuku%20(2).webp" />
+<img src="https://github.com/khairulhabibie/Bookshelf-App/blob/main/src/img/img-rakbuku%20(3).webp" />
