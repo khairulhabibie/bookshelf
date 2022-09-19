@@ -4,41 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Bookshelf</title>
+    <title>Rak Buku</title>
 
     <!-- css -->
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="src/css/index.css" />
   </head>
   <body>
-    <header>
-      <h1>Bookshelf</h1>
-    </header>
+    <nav>
+      <h1>RAK BUKU</h1>
+    </nav>
     <main>
       <section class="input-book">
-        <h2>Enter New Book</h2>
+        <h2>Masukkan Buku Baru</h2>
         <form id="inputBook">
           <div class="input">
-            <label for="titleBook">Title</label>
-            <input id="titleBook" type="text" required />
+            <label for="titleBook">Judul</label>
+            <input id="titleBook" type="text" maxlength="21" required />
           </div>
           <div class="input">
-            <label for="authorBook">Author</label>
-            <input id="authorBook" type="text" required />
+            <label for="authorBook">Penulis</label>
+            <input id="authorBook" type="text" maxlength="21" required />
           </div>
           <div class="input">
-            <label for="yearBook">Year</label>
-            <input id="yearBook" type="number" required />
+            <label for="yearBook">Tahun Terbit</label>
+            <input id="yearBook" type="number" min="1900" required />
           </div>
           <div class="input_inline">
             <input id="isCompleted" type="checkbox" />
-            <label for="isCompleted">Finished reading</label>
+            <label for="isCompleted">Sudah Selesai dibaca</label>
           </div>
-          <button id="bookSubmit" type="submit">Click here to add Book to Shelf</button>
+          <button id="bookSubmit" type="submit">Tambahkan ke RAK !</button>
         </form>
       </section>
 
       <section class="book_shelf">
-        <h2>Unread book</h2>
+        <h2>Rak Buku Belum dibaca</h2>
 
         <div id="unRead" class="book_list">
           <!-- <article class="book_item">
@@ -56,7 +56,7 @@
       </section>
 
       <section class="book_shelf">
-        <h2>The book has been read</h2>
+        <h2>Rak Buku Sudah dibaca</h2>
 
         <div id="readyRead" class="book_list">
           <!-- <article class="book_item">
@@ -74,6 +74,6 @@
       </section>
     </main>
 
-    <script src="js/index.js"></script>
+    <script src="src/js/index.js"></script>
   </body>
 </html>

@@ -85,13 +85,13 @@ const makeBook = (bookObject) => {
   const { id, titleBook, authorBook, yearBook, isCompleted } = bookObject;
 
   const title = document.createElement('tr');
-  title.innerHTML = `<td>Title</td><td>:</td><td class="title">${titleBook}</td>`;
+  title.innerHTML = `<td>Judul</td><td>:</td><td >${titleBook}</td>`;
 
   const author = document.createElement('tr');
-  author.innerHTML = `<td>Author</td><td>:</td><td>${authorBook}</td>`;
+  author.innerHTML = `<td>Penulis</td><td>:</td><td>${authorBook}</td>`;
 
   const year = document.createElement('tr');
-  year.innerHTML = `<td>Year</th><td>:</td><td>${yearBook}</td>`;
+  year.innerHTML = `<td>Tahun</th><td>:</td><td>${yearBook}</td>`;
 
   const table = document.createElement('table');
   table.append(title, author, year);
@@ -107,11 +107,11 @@ const makeBook = (bookObject) => {
   if (isCompleted) {
     const undoButton = document.createElement('button');
     undoButton.classList.add('green');
-    undoButton.innerText = 'Unfinished Read';
+    undoButton.innerText = `belum dibaca`;
 
     const trashButton = document.createElement('button');
     trashButton.classList.add('red');
-    trashButton.innerText = 'Delete';
+    trashButton.innerText = `hapus`;
 
     const smallContainer = document.createElement('div');
     smallContainer.classList.add('action');
@@ -128,11 +128,11 @@ const makeBook = (bookObject) => {
   } else {
     const checkButton = document.createElement('button');
     checkButton.classList.add('green');
-    checkButton.innerText = 'Done Read';
+    checkButton.innerText = `sudah dibaca`;
 
     const trashButton = document.createElement('button');
     trashButton.classList.add('red');
-    trashButton.innerText = 'Delete';
+    trashButton.innerText = `hapus`;
 
     const smallContainer = document.createElement('div');
     smallContainer.classList.add('action');

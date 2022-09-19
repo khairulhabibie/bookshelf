@@ -1,0 +1,177 @@
+/* font eksternal */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* reset */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/*  scroll bar - Only Chrome */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(68, 68, 68);
+}
+/* scroll bar - Only IE */
+html {
+  scrollbar-face-color: black;
+  scrollbar-shadow-color: #8ea5b5;
+  scrollbar-highlight-color: #8ea5b5;
+}
+/* scroll bar - Only FireFox */
+html {
+  scrollbar-color: black rgb(221, 221, 221);
+}
+
+/* navbar */
+nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+}
+nav:hover {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.4);
+  transition: all 0.5s;
+}
+
+main {
+  max-width: 800px;
+  width: 75%;
+  margin: 70px auto;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.4);
+}
+main:hover {
+  transform: scale(1.01);
+  transition: all 0.3s;
+  box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.4);
+}
+
+/* rak input */
+.input-book {
+  padding: 16px;
+  border: 1px dashed black;
+}
+.input-book > h2 {
+  text-align: center;
+  padding: 0 0 10px;
+}
+.input-book > form > .input {
+  margin: 8px 0;
+}
+.input-book > form > button {
+  font-size: 16px;
+  background-color: black;
+  color: whitesmoke;
+  border: unset;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  padding: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.input-book > form > button:hover {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  border: 1px solid black;
+}
+.input-book > form > .input > input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1.05em;
+}
+.input-book > form > .input > label {
+  color: black;
+  font-weight: bold;
+}
+.input-book > form > .input_inline > input[type='checkbox'] {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+.input-book > form > .input_inline {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+.input-book > form > .input_inline > label {
+  color: black;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* rak buku */
+.book_shelf {
+  margin: 15px 0 0;
+  border: 1px dashed black;
+  width: 100%;
+}
+.book_shelf > h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+.book_shelf > .book_list > .book_item {
+  padding: 8px 16px 16px 16px;
+  border-top: 1px dashed black;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.book_shelf > .book_list > .book_item td {
+  padding: 0 3px;
+}
+.book_shelf > .book_list > .book_item .action > button {
+  font-size: 16px;
+  border: 0;
+  padding: 8px;
+  margin: 5px 10px 0 0;
+  cursor: pointer;
+  color: aliceblue;
+}
+.book_shelf > .book_list > .book_item .action > button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.book_shelf > .book_list > .book_item .action > button.green {
+  background-color: darkgreen;
+  color: aliceblue;
+}
+.book_shelf > .book_list > .book_item .action > button.red {
+  background-color: darkred;
+  color: aliceblue;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .book_shelf {
+    padding: 15px 0;
+  }
+}
