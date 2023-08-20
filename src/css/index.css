@@ -63,10 +63,10 @@ main {
   margin: 70px auto;
   padding: 16px;
   box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.4);
+  transition: all 0.3s;
 }
 main:hover {
   transform: scale(1.01);
-  transition: all 0.3s;
   box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.4);
 }
 
