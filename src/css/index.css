@@ -1,5 +1,5 @@
 /* font eksternal */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* reset */
 *,
@@ -8,7 +8,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*  scroll bar - Only Chrome */
@@ -44,7 +44,8 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  background-color: black;
+  /* background-color: black; */
+  background-color: blue;
   color: white;
   text-align: center;
   padding: 5px 0;
@@ -106,7 +107,7 @@ main:hover {
   color: black;
   font-weight: bold;
 }
-.input-book > form > .input_inline > input[type='checkbox'] {
+.input-book > form > .input_inline > input[type="checkbox"] {
   cursor: pointer;
   height: 30px;
   width: 30px;
